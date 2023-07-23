@@ -9,17 +9,18 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background-color: rgb(151, 75, 223);
+    align-items: center;
+    background-color: rgb(151, 62, 224);
 }
 
 .main{
     display: flex;
     flex-direction: column;
+    align-content: center;
+    /* width: 50rem; */
     justify-content: center;
     text-align: center;
-    align-content: center;
     margin: 20px auto;
 }
 
@@ -30,40 +31,40 @@
 
 .main h2{
     display: inline-block;
-    background: rgb(237, 155, 249);
-    padding: 12px 5px;
-    margin: 6px;
+    background: rgb(255, 181, 251);
     border-radius: 20px;
+    margin: 6px;
+    padding: 12px 5px;
 }
 
 button{
+    margin: 6px;
     width: 12rem;
     padding: 12px 5px;
     border-radius: 20px;
     border: none;
-    margin: 6px;
-    background-color: rgb(237, 137, 255);
+    background-color: rgb(209, 111, 255);
     box-shadow: 1px 1px 3px black;
-
 }
 
-button:hover {
+#pauseGame{
+    display: none;
+}
+button:hover{
     cursor: pointer;
 }
+
 .grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
-
-
 .square{
     width: 180px;
     height: 160px;
     border: 1px solid black;
-    /* box-shadow: 1px 3px 5px bla; */
-    margin: 10px
+    box-shadow: 1px 3px 5px rgb(150, 45, 255);
+    margin: 10px;
 }
 
 .mole{
